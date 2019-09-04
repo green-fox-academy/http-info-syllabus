@@ -111,6 +111,93 @@ https://netacademia.hu/courses/take/websuperhero/lessons/6489306-web-superher-01
 ## JavaScript
 
 ### Házi feladat ellenőrzés
+- Node.js
+- Comments
+- `console`
+- Variables
+  - `var`
+  - `let`
+  - `const`
+- Types
+  - number
+  - string
+  - boolean
+  - null
+  - undefined
+- Operators
+  - arithmetic
+  - logical
+  - comparison
+  - assignment
+  - `typeof`
+- Control structures
+  - `if`
+  - `while`
+  - `for`
+  - `break`
+  - `continue`
+
+```javascript
+const b = 20;
+
+if (b < 10) {
+  console.log('Yaaay! The value of the \'b\' variable is lower than 10') // This block will NOT run
+} else {
+  console.log('Yaaay! The value of the \'b\' variable is higher than 10') // This block will run
+}
+
+for (let i = 0; i < 100; i++) {
+  console.log(i); // Prints the numbers from 0 to 99
+}
+```
+
+```HTML
+<script>
+  console.log('Hello World!');
+</script>
+
+<script src="something.js"></script>
+```
+- Window object, window.document object
+- DOM
+  - getElementById
+  - getElementsByClassName
+  - querySelectorAll
+- Elements
+  - Element / Node
+  - createElement
+  - appendChild
+  - innerText, innerHTML
+  - attributes
+  - className, classList, toggle
+  - onclick
+
+```javascript
+const king = document.getElementById('b325');
+const lamplighter = document.querySelector('.b329');
+const asteroids = document.querySelectorAll('div.asteroid');
+
+for (let i = 0; i < asteroids.length; i++) {
+  console.log(asteroids[i]);
+}
+```
+
+- promise
+  - `.resolve()`
+  - `.reject()`
+  - `.then()`
+  - `.catch()`
+  - `.finally()`
+  -  chaining
+- Fetch API
+  - `fetch()`
+- `await`
+
+```javascript
+fetch(URL)
+  .then(response => response.json())
+  .then(myJson => console.log(myJson));
+```
 
 ### Feladatok
 
