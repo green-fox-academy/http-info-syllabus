@@ -1,22 +1,18 @@
 # HTML, CSS, JavaScript
-  - materials and homework:
-    - html + css
-    - bootstrap
-    - javascript expressions, control flow, dom, fetch, promise
-  - outline
-    - html + css + bootstrap mat review
-    - 1-2 simple html + css task
-    - 1-2 bootstrap more complex task
-    - lunch
-    - js mat review
-    - 3-4 simple js control flow
-    - 4-5 simple js DOM manipulation using control flow
-    - 2-3 fetch & promise
 
 ## Házi feladat
 
-https://netacademia.hu/courses/take/websuperhero/lessons/6489306-web-superher-01-fejlesztoeszkozok-megismerese-kozos-telepitese-1
-
+| Tananyag | Hossz |
+| -------- | ----- |
+|[VS Code telepítés (csak 7:30-ig)](https://netacademia.hu/courses/take/bootstrap-tegyuk-4/lessons/6512682-01-mi-az-a-html-kinek-jo-es-mit-lehet-vele-kesziteni-1)| 7:30 |
+| [HTML tagek](https://netacademia.hu/courses/take/html5alapozo/lessons/6515654-html-tag-ek-head-body-kulso-fajlok-beszurasa) | 55:00 |
+| [HTML attributumok](https://netacademia.hu/courses/take/html5alapozo/lessons/6515646-egyedi-attributumok-ellenorzes-egyszeru-pelda) | 1:04:00  |
+| [HTML paragrafusok és listák](https://netacademia.hu/courses/take/html5alapozo/lessons/6515651-fejlecek-paragrafusok-listak-letrehozas-es-formazasa) | 1:22:00 |
+| [HTML táblázatok, űrlapok](https://netacademia.hu/courses/take/html5alapozo/lessons/6515656-tablazatok-urlapok-keszitese-mukodese-tulajdonsagai) | 40:00 |
+| [Bootstrap gridek és layout](https://netacademia.hu/courses/take/bootstrap/lessons/6458247-2018bt4-2018-03-05-17-00-07-483-cet-0-mp4) | 1:37:00 |
+| [Bootstrap elemek](https://netacademia.hu/courses/take/bootstrap/lessons/6458248-2018bt4-2018-03-08-16-59-09-731-cet-0-mp4) | 1:32:04 |
+| [Javascript alapok](https://netacademia.hu/courses/take/progjavasc/lessons/6497916-programozas-01-udv-pandoran-1-epizod-1) | 1:16:00 |
+| [Javascript DOM](https://netacademia.hu/courses/take/progjavasc/lessons/6497919-programozas-02-udv-pandoran-1-epizod-2) | 1:04:00 |
 
 ## HTML és CSS
 
