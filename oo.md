@@ -1,29 +1,117 @@
 # Objektum orientált programozás
 
-  - materials and homework:
-    - expressions & control flow
-    - functions & arrays
-    - oo
-  - outline
-    - exp & control flow + func & arrays mat review
-    - 1-2 exp
-    - 2-3 arr
-    - 2-3 func
-    - lunch
-    - oo mat reivew
-    - 3-4 simple oo
-    - 1-2 complex oo
-
-
 ## Házi feladat
 
 | Tananyag | Hossz |
 | -------- | ----- |
-|  |  |
+| [Szoftverfejlesztés Javaban Alapok I.](https://netacademia.hu/courses/take/szoftjava/lessons/6495389-szoftverfejl-01-alapismeretek-1) | 1:21:00 |
+| [Szoftverfejlesztés Javaban Alapok II.](https://netacademia.hu/courses/take/szoftjava/lessons/6495390-szoftverfejl-02-alapismeretek-2) | 58:10 |
+| [Objektumorientáltság I.](https://netacademia.hu/courses/take/szoftjava/lessons/6495393-szoftverfejl-03-objektumorientaltsag-1) | 1:13:50 |
+| [Objektumorientáltság II.](https://netacademia.hu/courses/take/szoftjava/lessons/6495395-szoftverfejl-04-objektumorientaltsag-2) | 24:45 |
+| [Objektumorientáltság III.](https://netacademia.hu/courses/take/szoftjava/lessons/6495418-szoftverfejl-05-objektumorientaltsag-3) | 53:02 |
+| [Fontosabb építőelemek](https://netacademia.hu/courses/take/szoftjava/lessons/6495419-szoftverfejl-06-fontosabb-epitoelemek) | 1:20:03 |
+
 
 ## Programozás alapok
 
 ### Házi feladat ellenőrzés
+
+- Mit jelent, hogy programozási nyel?
+- Milyen programozási nyelv a Java?
+  <!-- an imperative statically typed programming language -->
+- Mi kell ahhoz, hogy megírjunk egy programot?
+  <!-- a text editor, IntelliJ IDEA -->
+- Mi egy utasítás?
+  <!-- syntactic unit that expresses some action to be carried out -->
+- Mi egy változó?
+- Mi a változó deklarálás/definiálás?
+- Mi a változó értékadás?
+- Milyen típusú változókat ismersz?
+  <!-- byte, int, float, boolean, char, String -->
+- Mi az operátor?
+- Milyen operátorokat ismersz?
+  <!--
+    arithmetic operators:
+      additive (+),
+      subtraction (-),
+      multiplication (*),
+      division (/),
+      remainder (%)
+
+    unary operators:
+      increment (++),
+      decrement (--),
+      logical complement (!)
+
+    equality and relational operators:
+      equal to (==),
+      not equal to (!=),
+      greater than (>),
+      greater than or equal to (>=),
+      less than (<),
+      less than or equal to (<=)
+
+    conditional operators:
+      conditional-AND (&&),
+      conditional-OR (||)
+    -->
+- Mit jelent a *Hello World!* alkalmazás?
+- Mit jelent a String összefűzés?
+- Mi egy *blokk*?
+- Mi egy *feltétel*es utasítás?
+- Mi egy *for-ciklus* utasítás?
+- Mi egy *while-ciklus* utasítás?
+- Mi egy *do-ciklus* utasítás?
+- Mi egy *switch* utasítás?
+- Hogyan kérhetsz be adatot a konzolon?
+- ArrayLists
+  - Object
+  - hozzáadás és törlés
+  - létrehozás
+  - `.add()` (következő helyre vagy specifikus helyre)
+  - `.addAll()`
+  - `.remove()` (index vagy érték alapján)
+  - `.set()`
+  - `.size()`
+  - `.isEmpty()`
+  - `.clear()`
+  - keresés: `.contains()`, `.containsAll()`
+  - elemek listák között (*másolás* `.toArray()`, `.addAll()`)
+  - szöveges megjelenítés `.toString()`
+- String
+  - `.length()`
+  - `.substring()`
+  - `.replace()`
+  - `.charAt()`
+  - `.equals()`
+  - `.compareTo()`
+  - `.toLowerCase()`
+  - `.contains()`
+  - `.endsWith()`
+  - `.startsWith()`
+  - `.indexOf()`
+  - `.lastIndexOf()`
+  - `.split()`
+- Függvények
+  - újrafelhasználhatóság
+  - kód dupklikáció  eltüntetése
+  - absztrakció, parametrizálás
+    <!--
+      By parameterization the code will be independent from the circumstances
+      eg.:
+        - sayHello("Mike") -> you don't need to write different function for
+          each person
+        - createMatrix(10) -> you can create matrices with any size
+    -->
+  - void vagy visszatérési érték
+  - olvashatóság
+  - belső változók
+  - paraméterek
+- Debugolás
+  - breakpoint
+  - step over
+  - watches
+  - evaluate expression
 
 ### Feladatok
 
@@ -143,6 +231,217 @@ Alma, Dinnye, Körte, Málna, Szilva
 ## Objektum orientált programozás
 
 ### Házi feladat ellenőrzés
+
+- Mi az OOP?
+  <!-- 
+    OOP is a paradigm that is concerned mainly with the way that code is organized.
+    It gives us classes, and other tools to group similar things together.
+  -->
+- Vannak más paradigmák is?
+  <!-- 
+    Yes, we have different paradigms. Moreover languages can follow more paradigms.
+    eg.: functional, procedural etc..
+  -->
+- Az OOP a legjobb?
+  <!-- 
+    No, there is no best paradigm. It depends on the given problem, environment and sometimes taste.
+    comparisson: Stateful - Stateless
+  -->
+- Mi az az osztály?
+  <!-- 
+    It is a blueprint. It tells what makes something a "thing".
+    The Bird is a class, 
+      - it tells us that each bird has wings, feet but they don't have any teeth or battery
+      - they can fly, eat but they can't write or drive a car.
+    You can use that blueprint to create different instances of that class. Eg.: A white eagle or a black falcon, etc...
+    They will behave the same but their properties will differ.
+
+    Think them as real blueprints, you can build white, red any colored house from the same blueprint, you can change even the windows, but the sizes will be the same and you can enter the building the same way.
+
+    Since it is a concept, a thing it has always singular name!!!
+  -->
+- Mi a konstruktor?
+  <!--
+    This will be called when you create a new instance of the class by using the new keyword.
+    All the classes have a default empty constructor w/o any parameters. If you want to do something during the instantiation you have to define your own constructor.
+    You can define more constructors so your class can be instantiated in different ways.
+    Usually we assign value to the instance variables, we initialize the instance in the constructor. We shouldn't have any side effect in the constructor.
+  -->
+- Mire jó a `this` kulcsszó?
+  <!--
+    It references to the instance, you can use it to access your props and methods
+  -->
+- Mi a különbség az osztály és egy példány között?
+  <!--
+    You are the instance, Person is the class. Person is a concept, You are one concrete example of that concept.
+  -->
+- Mik az osztályváltozók, attribútumok?
+  <!--
+    These are the properties what each instance must own but they have different values in each instance.
+    Eg.: Each Person has
+      - hair color
+      - length
+      - weight
+      - eye color
+
+    These properties hold the current state of the instance.
+  -->
+- Mik a metódusok?
+  <!--
+    These are those action what can be made on your instance or can be performed by the instance. 
+    For example a Person can
+      - eat(Food)
+      - drive(Car)
+      - hit(Person)
+      - sleep()
+
+    These actions will change the instance's current state or will interact with other objects/instances.
+  -->
+- Mire jó a `private` és `public`?
+  <!--
+    If you set a property or method to private, it won't exist for the outer world. It is accessible only within the class.
+     - You need getters and setters to modify their values
+     - Public means there is no restriction on the property, anybody can access it
+
+  -->
+- Mit jelent egységbezárás/borítékolás?
+  <!--
+    In order to keep the internal consistency you have to hide your internal state.
+      - A Car, if it is driven, the fuelLevel is decreasing and the runKms is increasing. If the runKms would be public you would be able to change it without lowering the fuelLevel.
+      - If you have a bank account you need a transaction to change the balance. If the balance would be public it could be editable without any history.
+    
+    Sometimes you want to hide a complex system from the user, because he doesn't want to deal with implementation details.
+     - You don't now how an ArrayList stores its values. You just call the functions on it.
+     - HashMap
+  -->
+- Hogyan jelenik meg az Kizárólagos Felelősség Elve az OOP-ban?
+  <!--
+    SRP: It means one thing must do only one thing. This is not the right definition but it is a good start.
+    In OOP each class must deal with only one topic/thing. It should not write files and calculate complex logic.
+    Indicator: too many properties, the properties are used in different methods.
+  -->
+- Mit jelent az osztályváltozó?
+  <!--
+    It is defined on the class, not on the instances. You remember only one class exists, so in his case we will have only one variable.
+    Each instance will have the same value so if one changes it all the other instances will have the new value too.
+    Eg. A counter which counts how many instances have been created from the class.
+  -->
+- Mit jelent a `static` kulcsszó?
+  <!--
+    This is how you can create class variables. You can use this keyword for methods as well.
+  -->
+- Hogyan használhatok más fájlokban található osztályokat?
+  <!--
+    By importing them to your source file.
+  -->
+- Mi az a package?
+  <!--
+    A package can be defined as a grouping of related classes providing access
+    protection and namespace management. Pretty much a directory with the
+    grouped class files.
+  -->
+- Miért használunk package-eket?
+  <!--
+    Packages are used in Java in order to prevent naming conflicts, to control
+    access, to make searching/locating and usage easier of classes.
+  -->
+- Mi az az öröklődés?
+  <!--
+    Different kinds of objects often have a certain amount in common with each
+    other. Mountain bikes, road bikes, and tandem bikes, for example, all share
+    the characteristics of bicycles (current speed, current pedal cadence,
+    current gear). Yet each also defines additional features that make them
+    different: tandem bicycles have two seats and two sets of handlebars; road
+    bikes have drop handlebars; some mountain bikes have an additional chain
+    ring, giving them a lower gear ratio.
+
+    https://docs.oracle.com/javase/tutorial/java/concepts/inheritance.html
+  -->
+- Mi az ősosztály?
+  <!--
+    Superclass is the class from where a subclass inherits the features. It is
+    also called a base class or a parent class.
+  -->
+- Mi a származtatott osztály?
+  <!--
+    Subclass is a class which inherits the other class. It is also called a
+    derived class, extended class, or child class.
+  -->
+- Mi a különbség az *ez-is-egy* és a *van-neki* kapcsolat között?
+  <!--
+    A house has a room while water is a drink.
+    The VW Beatle is a car, but the Garage is not a car, but has a car.
+
+    It is an easy way to determine whether you should use inheritance or not at
+    the beginning.
+  -->
+- Miért hasznos az öröklődés?
+  <!--
+    For Method Overriding (so runtime polymorphism can be achieved).
+    For Code Reusability.
+  -->
+- Mire lehet használni a `super` kulcsszót?
+  <!--
+    Super can be used to refer immediate parent class instance variable.
+    Super can be used to invoke immediate parent class method.
+    Super() can be used to invoke immediate parent class constructor.
+  -->
+- Mik a hozzáférés módosítók?
+  <!--
+    Access modifiers (or access specifiers) are keywords in object-oriented
+    languages that set the accessibility of classes, methods, and other members.
+    Access modifiers are a specific part of programming language syntax used to
+    facilitate the encapsulation of components.
+
+    Protected, package private.
+
+    The access modifier in the parent class can't be looser than in the subclass
+    because it would harm the polymorphism.
+  -->
+- Mit jelent a polimorfizmus?
+  <!--
+    Within an inheritance hierarchy, a subclass can override a method of its
+    superclass. That enables the developer of the subclass to customize or
+    completely replace the behavior of that method.
+    Both methods, implemented by the super- and subclass, share the same name
+    and parameters but provide different functionality.
+  -->
+- Mikor kell használni az `@Override` annotációt?
+  <!--
+    Use it every time you override a method for two benefits. Do it so that you
+    can take advantage of the compiler checking to make sure you actually are
+    overriding a method when you think you are. This way, if you make a common
+    mistake of misspelling a method name or not correctly matching the
+    parameters, you will be warned that you method does not actually override as
+    you think it does. Secondly, it makes your code easier to understand because
+    it is more obvious which methods are overwritten.
+  -->
+- Mi a különbség override és overload között?
+  <!--
+    Overriding means that you are implementing an inherited method while
+    overloading means that you are creating a method with the same name but
+    different parameters.
+  -->
+- Hogyan lehet biztoságosan kasztolni?
+  <!--
+    Use the 'instanceof' operator and (Type).
+  -->
+- Mi a különbség az explicit és implicit kasztolás között?
+  <!--
+    Implicit casting or widening or automatic type conversion can happen if both
+    type are compatible and target type is larger than source type.
+    For example byte -> short -> int -> long -> float -> double
+
+    Explicit casting or narrowing is required when you are assigning a larger
+    type to a smaller type.
+    For example double -> float -> long -> int -> short -> byte
+    https://www.javainterviewpoint.com/type-casting-java-implicit-explicit-casting/
+  -->
+- Mire jó a `final` kulcsszó?
+  <!--
+    Final classes can't be inherited.
+    Final methods can't be overridden.
+  -->
 
 ### Feladatok
 
