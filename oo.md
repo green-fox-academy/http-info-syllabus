@@ -6,6 +6,28 @@
 | -------- | ----- |
 | [Szoftverfejlesztés Javaban Alapok I.](https://netacademia.hu/courses/take/szoftjava/lessons/6495389-szoftverfejl-01-alapismeretek-1) | 1:21:00 |
 | [Szoftverfejlesztés Javaban Alapok II.](https://netacademia.hu/courses/take/szoftjava/lessons/6495390-szoftverfejl-02-alapismeretek-2) | 58:10 |
+| [Primitívek Javaban](https://www.youtube.com/watch?v=yZlQq2sAsmM) | 7:30 |
+| [Objektumorientált programozás](https://www.youtube.com/watch?v=200KHSX1dIw) | 12:09 |
+| [Az első projekt](https://www.youtube.com/watch?v=wco0J2aODQk) | 9:13 |
+| [A cenzor program Javaban I.](https://www.youtube.com/watch?v=lslff5vz3Nc) | 9:09 |
+| [A cenzor program Javaban II.](https://www.youtube.com/watch?v=32iWFEn_X5Q) | 7:07 |
+| [Human az első objektum](https://www.youtube.com/watch?v=8nMeoHMpxc8) | 11:55 |
+| [Getter és Setter](https://www.youtube.com/watch?v=VBfnEJN0dzs) | 11:26 |
+| [Ternális operátor](https://www.youtube.com/watch?v=DP863oa_Xg4) | 11:47 |
+| [Polimorfizmus](https://www.youtube.com/watch?v=v5hz6HFnmGg) | 8:46 |
+| [Öröklődés és Override](https://www.youtube.com/watch?v=gwRXQl39FCE) | 6:41 |
+| [Interfész](https://www.youtube.com/watch?v=5HxjGA88i3c) | 9:24 |
+| [Konstruktor](https://www.youtube.com/watch?v=cbGBptKxti4) | 11:35 |
+| [Kasztolás](https://www.youtube.com/watch?v=xinuYU-cHNY) | 9:45 |
+| [Tömb vs Arraylist](https://www.youtube.com/watch?v=sAJUzTjOKng) | 9:45 |
+| [Az Arraylistek és szülők kapcsolata](https://www.youtube.com/watch?v=uGRg37IIxWE) | 8:00 |
+
+
+
+### Opcionális
+
+| Tananyag | Hossz |
+| -------- | ----- |
 | [Objektumorientáltság I.](https://netacademia.hu/courses/take/szoftjava/lessons/6495393-szoftverfejl-03-objektumorientaltsag-1) | 1:13:50 |
 | [Objektumorientáltság II.](https://netacademia.hu/courses/take/szoftjava/lessons/6495395-szoftverfejl-04-objektumorientaltsag-2) | 24:45 |
 | [Objektumorientáltság III.](https://netacademia.hu/courses/take/szoftjava/lessons/6495418-szoftverfejl-05-objektumorientaltsag-3) | 53:02 |
