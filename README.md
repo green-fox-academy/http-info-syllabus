@@ -2,8 +2,8 @@
 
 ## Napok
 
-- [HTML, CSS, JavaScript](frontend.md)
 - [Objektum orientált programozás](oo.md)
+- [HTML, CSS, JavaScript](frontend.md)
 - [SQL és GUI](sql-gui.md)
 
 - frontend day

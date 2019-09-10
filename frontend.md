@@ -82,25 +82,37 @@
 
 #### Feladat 1
 
+Készítsd el az alábbi weblapot (index.html, style.css)!
+
 ![](assets/exercise-01.png)
 
 #### Feladat 2
 
-![](assets/exercise-02.png)
-
-#### Feladat 3
+Készítsd el az alábbi weblapot (index.html, style.css)!
 
 ![](assets/exercise-03.png)
 
-#### Feladat 4
+#### Feladat 3
+
+Bootstrap segítségével készítsd el az alábbi weblapot!
 
 ![](assets/exercise-04.png)
 
-#### Feladat 5
+#### Feladat 4
+
+Bootstrap segítségével készítsd el az alábbi weblapot!
 
 ![](assets/exercise-05.png)
 
+#### Feladat 5
+
+Készítsd el az alábbi weblapot (index.html, style.css)!
+
+![](assets/exercise-02.png)
+
 #### Feladat 6
+
+Bootstrap segítségével készítsd el az alábbi weblapot!
 
 ![](assets/exercise-06.png)
 
@@ -230,11 +242,11 @@ Készíts scriptet az első feladathoz, amelynek segítségével átírod azt a 
 
 #### Feladat 12
 
-Készíts scriptet a második feladathoz, amelynek segítségével mindegyik szöveg fekete színű lesz.
+Készíts scriptet a első feladathoz, amelynek segítségével mindegyik szöveg fekete, a háttér pedig narancssárga színű lesz.
 
 #### Feladat 13
 
-Készíts scriptet a harmadik feladathoz, amelyben létrehozol egy tömb változót, amelybe az alábbi szövegeket tedd: "JavaScript", "HTML", "CSS".
+Készíts scriptet a második feladathoz, amelyben létrehozol egy tömb változót, amelybe az alábbi szövegeket tedd: "JavaScript", "HTML", "CSS".
 A script segítségével a tömb minden elemét add hozzá HTML-ben található `ul` listához.
 
 #### Feladat 14
