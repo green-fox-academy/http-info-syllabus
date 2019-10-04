@@ -38,7 +38,7 @@
 
 ### Házi feladat ellenőrzés
 
-- Mit jelent, hogy programozási nyel?
+- Mit jelent, hogy programozási nyelv?
 - Milyen programozási nyelv a Java?
   <!-- an imperative statically typed programming language -->
 - Mi kell ahhoz, hogy megírjunk egy programot?
