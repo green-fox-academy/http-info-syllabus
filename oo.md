@@ -39,6 +39,7 @@
 ### Házi feladat ellenőrzés
 
 - Mit jelent, hogy programozási nyelv?
+  <!-- A programozási nyelv a számítástechnikában használt olyan, az ember által olvasható és értelmezhető utasítások sorozata, amivel közvetlenül, vagy közvetve (például: gépi kódra fordítás után) közölhetjük a számítógéppel egy adott feladat elvégzésének módját. -->
 - Milyen programozási nyelv a Java?
   <!-- an imperative statically typed programming language -->
 - Mi kell ahhoz, hogy megírjunk egy programot?
@@ -46,7 +47,9 @@
 - Mi egy utasítás?
   <!-- syntactic unit that expresses some action to be carried out -->
 - Mi egy változó?
+  <!-- a variable or scalar is a storage location (identified by a memory address) paired with an associated symbolic name, which contains some known or unknown quantity of information referred to as a value -->
 - Mi a változó deklarálás/definiálás?
+  <!-- Declaration of a variable is for informing to the compiler the following information: name of the variable, type of value it holds and the initial value if any it takes. i.e., declaration gives details about the properties of a variable. -->
 - Mi a változó értékadás?
 - Milyen típusú változókat ismersz?
   <!-- byte, int, float, boolean, char, String -->
