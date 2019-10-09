@@ -41,7 +41,7 @@
 - Mit jelent, hogy programozási nyelv?
   <!-- A programozási nyelv a számítástechnikában használt olyan, az ember által olvasható és értelmezhető utasítások sorozata, amivel közvetlenül, vagy közvetve (például: gépi kódra fordítás után) közölhetjük a számítógéppel egy adott feladat elvégzésének módját. -->
 - Milyen programozási nyelv a Java?
-  <!-- an imperative statically typed programming language -->
+  <!-- an imperative statically typed programming language. Also, it partially supports modern programming paradigms such as generic programming, concurrent programming, functional programming, and some others. -->
 - Mi kell ahhoz, hogy megírjunk egy programot?
   <!-- a text editor, IntelliJ IDEA -->
 - Mi egy utasítás?
