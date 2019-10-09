@@ -45,7 +45,7 @@
 - Mi kell ahhoz, hogy megírjunk egy programot?
   <!-- a text editor, IntelliJ IDEA -->
 - Mi egy utasítás?
-  <!-- syntactic unit that expresses some action to be carried out -->
+  <!-- syntactic unit that expresses some action to be carried out. A single action (like print a text) terminated by semi-colon (;) -->
 - Mi egy változó?
   <!-- a variable or scalar is a storage location (identified by a memory address) paired with an associated symbolic name, which contains some known or unknown quantity of information referred to as a value -->
 - Mi a változó deklarálás/definiálás?
@@ -83,6 +83,9 @@
 - Mit jelent a *Hello World!* alkalmazás?
 - Mit jelent a String összefűzés?
 - Mi egy *blokk*?
+  <!--
+    a group of zero, one or more statements enclosed by a pair of braces {...}
+  -->
 - Mi egy *feltétel*es utasítás?
 - Mi egy *for-ciklus* utasítás?
 - Mi egy *while-ciklus* utasítás?
