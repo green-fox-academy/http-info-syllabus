@@ -2,6 +2,8 @@
 
 ## Házi feladat
 
+### Java
+
 | Tananyag | Hossz |
 | -------- | ----- |
 | [Szoftverfejlesztés Javaban Alapok I.](https://netacademia.hu/courses/take/szoftjava/lessons/6495389-szoftverfejl-01-alapismeretek-1) | 1:21:00 |
@@ -22,9 +24,32 @@
 | [Tömb vs Arraylist](https://www.youtube.com/watch?v=sAJUzTjOKng) | 9:45 |
 | [Az Arraylistek és szülők kapcsolata](https://www.youtube.com/watch?v=uGRg37IIxWE) | 8:00 |
 
+### C#
 
+| Tananyag | Hossz |
+| -------- | ----- |
+| [C# Programozás 1.rész - Alapok](https://www.youtube.com/watch?v=JsLEG9WXCD) | 15:37 |
+| [C# Programozás 2.rész - Operátorok, adatbekérés](https://www.youtube.com/watch?v=hHszJUvynlc) | 14:26 |
+| [C# Programozás 3.rész - Elágazások: if-else](https://www.youtube.com/watch?v=imaXNPzJ3yw) | 17:48 |
+| [C# Programozás 4.rész - Elágazások: switch](https://www.youtube.com/watch?v=m1FXvelQhiU) | 10:08 |
+| [C# Programozás 5.rész - Iterációk, ciklusok](https://www.youtube.com/watch?v=pvpl0um-nFc) | 20:05 |
+| [C# Programozás 6.rész - Prefix, postfix, túlcsordulás](https://www.youtube.com/watch?v=hR3fezxvdZs) | 10:35 |
+| [C# Programozás 7.rész - Randomolás, Tömbök: vektorok, mátrixok, mutatóvektorok, stringek](http://www.youtube.com/watch?v=9xFduYQ99UI) | 27:06 |
+| [C# Programozás 9.rész - Alprogramok:eljárások és függvények](http://www.youtube.com/watch?v=FiFpJdWpwuE) | 31:14 |
+| [C# Programozás 10.rész - Alprogramok - feladatok](http://www.youtube.com/watch?v=KqldoFnBqw0) | 19:36 |
+| [C# Programozás 14.rész - List és ArrayList + Elmélet](http://www.youtube.com/watch?v=7csSb-wGTRc) | 29:22 |
+| [C# Programozás 19. rész - Struktúrák](http://www.youtube.com/watch?v=Y3oPacf3klY) | 11:29 |
+| [C# Programozás 23. rész - OOP1 - Alapok, konstruktor](http://www.youtube.com/watch?v=qW9yqzQd7k0) | 18:36 |
+| [C# Programozás 24. rész - OOP2 - Láthatóságok, jellemzők](http://www.youtube.com/watch?v=xIPKJB5jYus) | 16:19 |
+| [C# Programozás 25. rész - OOP3 - Jellemzők, osztálymetódus, statikus mezők, osztályok](http://www.youtube.com/watch?v=Gls_UMXWCjA) | 14:04 |
+| [C# Programozás 26. rész - OOP4 - Öröklődés, is a viszony](http://www.youtube.com/watch?v=2mQ_c0GVf0E) | 35:29 |
+| [C# Programozás 27. rész - OOP5 - Öröklődés: override, virtual, new, sealed](http://www.youtube.com/watch?v=CLNd8LU-LW4) | 12:08 |
+| [C# Programozás 28. rész - OOP6 - Késői, korai kötés, polimorfizmus](https://www.youtube.com/watch?v=pmUy7ZLuRf8) | 12:07 |
+| [C# Programozás 31. rész - OOP9 - Interfészek](https://www.youtube.com/watch?v=MycYPaDD4-Q) | 11:45 |
 
 ### Opcionális
+
+#### Java
 
 | Tananyag | Hossz |
 | -------- | ----- |
@@ -261,24 +286,24 @@ Alma, Dinnye, Körte, Málna, Szilva
 ### Házi feladat ellenőrzés
 
 - Mi az OOP?
-  <!-- 
+  <!--
     OOP is a paradigm that is concerned mainly with the way that code is organized.
     It gives us classes, and other tools to group similar things together.
   -->
 - Vannak más paradigmák is?
-  <!-- 
+  <!--
     Yes, we have different paradigms. Moreover languages can follow more paradigms.
     eg.: functional, procedural etc..
   -->
 - Az OOP a legjobb?
-  <!-- 
+  <!--
     No, there is no best paradigm. It depends on the given problem, environment and sometimes taste.
     comparisson: Stateful - Stateless
   -->
 - Mi az az osztály?
-  <!-- 
+  <!--
     It is a blueprint. It tells what makes something a "thing".
-    The Bird is a class, 
+    The Bird is a class,
       - it tells us that each bird has wings, feet but they don't have any teeth or battery
       - they can fly, eat but they can't write or drive a car.
     You can use that blueprint to create different instances of that class. Eg.: A white eagle or a black falcon, etc...
@@ -316,7 +341,7 @@ Alma, Dinnye, Körte, Málna, Szilva
   -->
 - Mik a metódusok?
   <!--
-    These are those action what can be made on your instance or can be performed by the instance. 
+    These are those action what can be made on your instance or can be performed by the instance.
     For example a Person can
       - eat(Food)
       - drive(Car)
@@ -337,7 +362,7 @@ Alma, Dinnye, Körte, Málna, Szilva
     In order to keep the internal consistency you have to hide your internal state.
       - A Car, if it is driven, the fuelLevel is decreasing and the runKms is increasing. If the runKms would be public you would be able to change it without lowering the fuelLevel.
       - If you have a bank account you need a transaction to change the balance. If the balance would be public it could be editable without any history.
-    
+
     Sometimes you want to hide a complex system from the user, because he doesn't want to deal with implementation details.
      - You don't now how an ArrayList stores its values. You just call the functions on it.
      - HashMap
