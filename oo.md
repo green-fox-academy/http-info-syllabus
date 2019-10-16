@@ -387,7 +387,7 @@ Alma, Dinnye, Körte, Málna, Szilva
   <!--
     By importing them to your source file.
   -->
-- Mi az a package?
+- Mi az a package vagy namespace?
   <!--
     A package can be defined as a grouping of related classes providing access
     protection and namespace management. Pretty much a directory with the
@@ -459,7 +459,7 @@ Alma, Dinnye, Körte, Málna, Szilva
     Both methods, implemented by the super- and subclass, share the same name
     and parameters but provide different functionality.
   -->
-- Mikor kell használni az `@Override` annotációt?
+- Mikor kell használni az `@Override` annotációt vagy `override` kulcsszót?
   <!--
     Use it every time you override a method for two benefits. Do it so that you
     can take advantage of the compiler checking to make sure you actually are
@@ -490,7 +490,7 @@ Alma, Dinnye, Körte, Málna, Szilva
     For example double -> float -> long -> int -> short -> byte
     https://www.javainterviewpoint.com/type-casting-java-implicit-explicit-casting/
   -->
-- Mire jó a `final` kulcsszó?
+- Mire jó a `final` vagy `readonly` kulcsszó?
   <!--
     Final classes can't be inherited.
     Final methods can't be overridden.
@@ -523,6 +523,8 @@ Készíts pár példa objektumot:
 
 Másold magadhoz az elkészített Pokemon osztályt:
 
+##### Java
+
 ```java
 public class Pokemon {
     String nev;
@@ -541,7 +543,29 @@ public class Pokemon {
 }
 ```
 
+##### C#
+
+```cs
+public class Pokemon {
+    string nev;
+    string tipus;
+    string ellenfel;
+
+    public Pokemon(string nev, string tipus, string ellenfel) {
+        this.nev = nev;
+        this.tipus = tipus;
+        this.ellenfel = ellenfel;
+    }
+
+    bool hatasosEllene(Pokemon masik) {
+        return this.ellenfel.Equals(masik.tipus);
+    }
+}
+```
+
 Illetve használd ezen osztály main metódusát, benne kommentként láthatod a feladatot:
+
+##### Java
 
 ```java
 import java.util.ArrayList;
@@ -572,6 +596,47 @@ public class Main {
         pokemon.add(new Pokemon("Charizard", "tűz", "fű"));
         pokemon.add(new Pokemon("Balbasaur", "víz", "tűz"));
         pokemon.add(new Pokemon("Kingler", "víz", "tűz"));
+
+        return pokemon;
+    }
+}
+```
+
+
+##### C#
+
+```cs
+using System;
+using System.Collections.Generic;  
+
+public class Main
+{
+    public static void Main(string[] args)
+    {
+        List<Pokemon> ashPokemonjai = initializePokemons();
+
+        // Minden pokémonnak van neve és típusa.
+        // Bizonyos tipusok hatásosak más típusokkal szemben, pl. víz hatásos tűz ellen.
+
+        // Ash-nek van néhány pokémonja.
+        // Felbukkant egy vad pokémon!
+
+        Pokemon vadPokemon = new Pokemon("Oddish", "fű", "víz");
+
+        // Melyik pokémonját válassza Ash a küzdelemhez?
+
+        Console.WriteLine("..., téged választalak!");
+    }
+
+    private static List<Pokemon> initializePokemons()
+    {
+        List<Pokemon> pokemon = new List<Pokemon>();
+
+        pokemon.Add(new Pokemon("Balbasaur", "fű", "víz"));
+        pokemon.Add(new Pokemon("Pikatchu", "elektromos", "víz"));
+        pokemon.Add(new Pokemon("Charizard", "tűz", "fű"));
+        pokemon.Add(new Pokemon("Balbasaur", "víz", "tűz"));
+        pokemon.Add(new Pokemon("Kingler", "víz", "tűz"));
 
         return pokemon;
     }
