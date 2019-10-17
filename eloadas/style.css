@@ -1,0 +1,23 @@
+body {
+    color: red;
+}
+
+p strong {
+    color: rgb(4, 255, 15);
+}
+
+p.elso {
+    font-weight: bold;
+    width: 50%;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 0 5px 10px 30px;
+}
+
+p {
+    color: blue;
+}
+
+#legjobb {
+    color: green;
+}
