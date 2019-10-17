@@ -42,12 +42,18 @@
 
 ####    7. Feladat  
 *   Hozz létre egy Student osztályt(_ ha létrehozunk egyet, akkor Object, egyébként Class_)  egy külön fájlban
-*   Ez rendelkezzen a következő értékmezókkel, jellemzőkkel(_field variable_): name, points, isItPalindrome
+*   Ez rendelkezzen a következő értékmezókkel, jellemzőkkel(_field variable_): name, points, isItPalindrome, fightPoints
 
 ####    8. Feladat 
-*   Hozzál létre két listát )_List_), amely Student elemeket tud tárolni
+*   Hozzál létre két új classt, SportsWoMan és ScienceWoMan
+*   Hozzál létre egy függvényt a Student classban, amely a nevuk charakter értékét számolja ki (5. feladat) és ezt hozzárendeli a az adott diák fightPoints mezőjéhez , illetve egy másikat, amely módosítja a diákok name mezőjét(renameStudent()).
+*   Kapcsold össze a SportsWoMan és ScienceWoMan osztályokat a Student osztállyal úgy, hogy ezek örököljék a metódusokat belőle
+*   A SportsWoMan osztályban adjon hozzá a renameStudent() függvény egy sportot a névhez, míg a ScienceWoMan osztályban egy tudományterület nevét
+
+####    9. Feladat 
+*   Hozzál létre két listát (_List_), amely Student elemeket tud tárolni
 *   Töltsd fel a file-ból a két listát, az ottani adatokkal hozzál létre diákokat és oszd így ketté őket
 *   Nevezd el az így kapott listát Bengalensisnek. 
-*   Hasonlítsd össze a két lista tagjainak pontszámát egymással. Írasd ki az öt legsikeresebb diákot ezen összehasonlítás eredményeként
+*   Hasonlítsd össze a két lista tagjainak fightPointsait egymással. Írasd ki az öt legsikeresebb diákot ezen összehasonlítás eredményeként
 *   Gratulálj magadnak.
 
