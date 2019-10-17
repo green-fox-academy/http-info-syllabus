@@ -3,9 +3,9 @@
 
 ### Instrukciők
 
-* A kóvetkezó feladatok azt kívánják felmérni, hogy milyen fogalmakat, szintaxisokat, funkciókat ismersz, illetve mennyire sajátítottad el a 'programozói gondolkodást'.
+* A következő feladatok azt kívánják felmérni, hogy milyen fogalmakat, szintaxisokat, funkciókat ismersz, illetve mennyire sajátítottad el a 'programozói gondolkodást'.
 * Az egyes feladatoknál nem az az elvárás, hogy azonnal képes legyél megoldani. Az már elég, ha hozzá tudnál kezdeni. 
-* Ha bizonytalan vagy, lójj fólé inkább egy feladattal, mint alá. Ott lesznek a mentoraid es a csoporttársaid, hogy segítsenek.
+* Ha bizonytalan vagy, lőjj fölé inkább egy feladattal, mint alá. Ott lesznek a mentoraid es a csoporttársaid, hogy segítsenek.
 
 
 ####    1. Feladat 	
