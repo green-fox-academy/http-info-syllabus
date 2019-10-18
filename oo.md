@@ -28,7 +28,7 @@
 
 | Tananyag | Hossz |
 | -------- | ----- |
-| [C# Programozás 1.rész - Alapok](https://www.youtube.com/watch?v=JsLEG9WXCD) | 15:37 |
+| [C# Programozás 1.rész - Alapok](https://www.youtube.com/watch?v=JsLEG9WXCDk) | 15:37 |
 | [C# Programozás 2.rész - Operátorok, adatbekérés](https://www.youtube.com/watch?v=hHszJUvynlc) | 14:26 |
 | [C# Programozás 3.rész - Elágazások: if-else](https://www.youtube.com/watch?v=imaXNPzJ3yw) | 17:48 |
 | [C# Programozás 4.rész - Elágazások: switch](https://www.youtube.com/watch?v=m1FXvelQhiU) | 10:08 |
