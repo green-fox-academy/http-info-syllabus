@@ -4,4 +4,4 @@
 
 - [Objektum orientált programozás](oo.md)
 - [HTML, CSS, JavaScript](frontend.md)
-- [SQL és Grafikus Felhasználói felület](sql-gui.md)
+- [SQL és Backend](sql.md)
