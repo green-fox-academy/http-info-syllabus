@@ -479,7 +479,7 @@ public class Pokemon {
     }
 
     boolean hatasosEllene(Pokemon masik) {
-        return this.ellenfel.equals(anotherPokemon.tipus);
+        return this.ellenfel.equals(masik.tipus);
     }
 }
 ```
