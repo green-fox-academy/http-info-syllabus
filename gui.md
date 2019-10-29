@@ -1,4 +1,4 @@
-# SQL és GUI
+# GUI
 
 ## Házi feladat
 
