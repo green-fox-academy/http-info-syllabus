@@ -17,13 +17,13 @@
 
 ### Feladatok
 
-#### 1
+#### 1.Feladat
 
 - Készíts grafikus megjelenítésű programot, amelyben megjeleníted a saját neved egy Labelen, valamint az ablak címe: "Első alkalmazásom".
 
 ![](assets/javafx-01.png)
 
-#### 2
+#### 2.Feladat
 
 - Készíts egy egyszerű alkalmazást, ahol 3 elem található, két Label és egy Button. Az egyik label egy számértéket kell tartalmazzon, ami a Button megnyomására növekszik eggyel.
 
@@ -32,7 +32,7 @@
 - Adj hozzá még egy gombot, amely lenullázza a számlálót!
 - Adj hozzá még egy gombot, amely csökkenti eggyel a számlálót!
 
-#### 3
+#### 3.Feladat
 
 - Készíts alkalmazást, amelybe be lehet jelentkezni
 - Készíts osztályt a felhasználónak, és legalább 3 különböző felhasználót hozz létre a program indulásakor
@@ -41,7 +41,7 @@
 
 ![](assets/javafx-03.png)
 
-####  4
+####  4.Feladat
 
 - Készíts egy egyserű szövegszerkesztő alkalmazást
 - A Layout elemei legyenek:
