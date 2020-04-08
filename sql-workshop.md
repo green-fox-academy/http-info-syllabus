@@ -154,3 +154,8 @@
 - [SQLBolt - SQL Lesson 16: Creating tables](https://sqlbolt.com/lesson/creating_tables)
 - [SQL Movie-Rating Query Exercises](https://lagunita.stanford.edu/courses/DB/SQL/SelfPaced/courseware/ch-sql/seq-exercise-sql_movie_query_core/)
   - Q1, Q2, Q3, Q4, Q5
+
+### Node példa
+
+- [Források mappája](https://github.com/green-fox-academy/http-info-syllabus/tree/master/node-example)
+- [Visszajelzéshez link](https://itmp.hu/klub/szolgaltatasok)

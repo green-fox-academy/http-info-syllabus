@@ -57,6 +57,7 @@ hogy kell a telepítést véghez vinni. Elég a videót 5:28-ig megnézni.
   - `**` (int, float)
   - `>`, `<`, `>=`, `<=`, `==`, `!=`  (int, float, bool, string, list, tuple)
   - `+=`, `-=`, `*=`, `/=`, `//=`, `%=`
+  - `[]`, `[:]`, `[::]`
   - `not`, `or`, `and`
   - `in`, `not in`
   - `is`, `is not`
@@ -76,7 +77,7 @@ hogy kell a telepítést véghez vinni. Elég a videót 5:28-ig megnézni.
 
 ### Feladatok a hétvégi alkalomra
 
-A kovetkező feladatokat a workshop során fogjuk megcsinálni, nem kell őket előre
+A következő feladatokat a workshop során fogjuk megcsinálni, nem kell őket előre
 elkészíteni.
 
 #### Feladat 1
