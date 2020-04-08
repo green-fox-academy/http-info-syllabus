@@ -6,3 +6,4 @@
 - [HTML, CSS, JavaScript](frontend.md)
 - [SQL és Backend](sql.md)
 - [GUI](gui.md)
+- [Python](python.md)
