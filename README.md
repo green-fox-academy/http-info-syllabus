@@ -7,3 +7,4 @@
 - [SQL és Backend](sql.md)
 - [GUI](gui.md)
 - [Python](python.md)
+- [Python Haladó](python-oo.md)

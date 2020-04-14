@@ -74,6 +74,7 @@ hogy kell a telepítést véghez vinni. Elég a videót 5:28-ig megnézni.
   - paraméterek
   - `return`
   - scope
+  - `len()`
 
 ### Feladatok a hétvégi alkalomra
 
@@ -145,23 +146,18 @@ Hozz létre egy változót `sorokSzama` néven, amit tölts fel értékkel, pl. 
 
 ##### Példák
 |              bemenet             |                         kimenet                         |
-14
 | :------------------------------: | :-----------------------------------------------------: |
-15
 | "dog goat dad duck doodle never" | \["og go", "g g", " dad ", "dad", "d d", "dood", "eve"] |
-16
 |              "apple"             |                            []                           |
-17
 |             "racecar"            |               \["racecar", "aceca", "cec"]              |
-18
 |                ""                |                            []                           |
 
 #### Feladat 9
 
-Írj egy függvényt ami egy bemeneti számról edönti, hogy [Armstrong-szám](https://hu.wikipedia.org/wiki/Armstrong-sz%C3%A1m)-e
+Írj egy függvényt ami egy bemeneti számról eldönti, hogy [Armstrong-szám](https://hu.wikipedia.org/wiki/Armstrong-sz%C3%A1m)-e
 
 #### Feladat 10
 
 Írj egy függvényt ami megvalósítja Conway [életjátékának](https://hu.wikipedia.org/wiki/%C3%89letj%C3%A1t%C3%A9k) egy körét.
 A bemenete legyen egy szám mátrix ahol az élő sejtek 1-es, a halottak pedig 0-ás értéket vesznek fel.
-A kimenete legyen egz új mátrix.
+A kimenete legyen egy új mátrix.
