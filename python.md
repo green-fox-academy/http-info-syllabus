@@ -107,4 +107,61 @@ Hozz létre egy változót `sorokSzama` néven, amit tölts fel értékkel, pl. 
  *******
 ```
 
+#### Feladat 5
 
+Írj egy függvényt ami egy szám-listát vesz be paraméterként és visszaadja a számok átlagát,
+
+#### Feladat 6
+
+Írj egy függvényt ami egy számok mátrix-át veszi be paraméterül (szám-listák listája) és a mátrixot elforgatja 90 fokkal balra.
+
+##### Példa bemenet:
+
+```
+[
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+```
+
+##### Példa kimenet:
+
+```
+[
+    [3, 6, 9],
+    [2, 5, 8],
+    [1, 4, 7]
+]
+```
+
+#### Feladat 7
+
+Írj egy függvényt ami paraméterként átvesz egy szöveget, és visszatér a 3 leggyakoribb karakterrel ami szerepel a szövekben gyakorisággal csökkenő sorrendben egy listaként.
+
+#### Feladat 8
+
+Írj egy függvényt ami palindromokat keres egy szövegben. Paraméterként vegyen át szöveget, és térjen vissza egy listával ami tartalmazza a szovegben legalább 3 betűs palindromokat.
+
+##### Példák
+|              bemenet             |                         kimenet                         |
+14
+| :------------------------------: | :-----------------------------------------------------: |
+15
+| "dog goat dad duck doodle never" | \["og go", "g g", " dad ", "dad", "d d", "dood", "eve"] |
+16
+|              "apple"             |                            []                           |
+17
+|             "racecar"            |               \["racecar", "aceca", "cec"]              |
+18
+|                ""                |                            []                           |
+
+#### Feladat 9
+
+Írj egy függvényt ami egy bemeneti számról edönti, hogy [Armstrong-szám](https://hu.wikipedia.org/wiki/Armstrong-sz%C3%A1m)-e
+
+#### Feladat 10
+
+Írj egy függvényt ami megvalósítja Conway [életjátékának](https://hu.wikipedia.org/wiki/%C3%89letj%C3%A1t%C3%A9k) egy körét.
+A bemenete legyen egy szám mátrix ahol az élő sejtek 1-es, a halottak pedig 0-ás értéket vesznek fel.
+A kimenete legyen egz új mátrix.
