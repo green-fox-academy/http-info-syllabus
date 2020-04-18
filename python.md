@@ -138,7 +138,7 @@ Hozz létre egy változót `sorokSzama` néven, amit tölts fel értékkel, pl. 
 
 #### Feladat 7
 
-Írj egy függvényt ami paraméterként átvesz egy szöveget, és visszatér a 3 leggyakoribb karakterrel ami szerepel a szövekben gyakorisággal csökkenő sorrendben egy listaként.
+Írj egy függvényt ami paraméterként átvesz egy szöveget, és visszatér egy listával ami a 3 leggyakoribb karaktert tartalmazza a szövegből csökkenő sorrendben.
 
 #### Feladat 8
 
