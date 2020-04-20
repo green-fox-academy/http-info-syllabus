@@ -33,10 +33,10 @@ hogy kell a telepítést véghez vinni. Elég a videót 5:28-ig megnézni.
   - `isinstance()`
   - `max()`
   - `min()`
-  - `reverse()`
+  - `reversed()`
   - `round()`
   - `sum()`
-  - `index()`
+  - `list.index()`
   - Konverziók
     - `int()`
     - `float()`
