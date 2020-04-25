@@ -110,7 +110,7 @@ class Pokemon:
         self.tipus = tipus
         self.ellenfel = ellenfel
 
-    def hatasos_ellene(masik):
+    def hatasos_ellene(self, masik):
         return self.ellenfel == masik.tipus
 ```
 
