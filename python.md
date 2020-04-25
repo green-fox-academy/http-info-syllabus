@@ -81,6 +81,8 @@ hogy kell a telepítést véghez vinni. Elég a videót 5:28-ig megnézni.
 A következő feladatokat a workshop során fogjuk megcsinálni, nem kell őket előre
 elkészíteni.
 
+### Normál feladatok:
+
 #### Feladat 1
 
 Mutasd be magad változók segítségével! Hozz létre három változót egyet a nevednek, egyet a korodnak és egyet a kedvenc gyümölcsödnek.
@@ -111,6 +113,8 @@ Hozz létre egy változót `sorokSzama` néven, amit tölts fel értékkel, pl. 
 #### Feladat 5
 
 Írj egy függvényt ami egy szám-listát vesz be paraméterként és visszaadja a számok átlagát,
+
+### Nehéz feladatok, ne izgulj ha nem mennek magadtól, azoknak van akik jól haladnak
 
 #### Feladat 6
 
