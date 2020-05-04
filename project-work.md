@@ -17,14 +17,14 @@
 ## Projekt a workshop alatt
 
 A projekt alatt 4-6 fős csapatokban egy repüléssel kapcsolatos statisztikai
-weboldalt fognak létrehozni a résztvevők.
+web-oldalt fognak létrehozni a résztvevők.
 
-A feladathoz szükséges készségek a csapatban (a csapatmunka eszközökön felül):
+A feladathoz szükséges készségek a csapatban (a csapat-munka eszközökön felül):
 
  - HTML és CSS fejlesztés
  - JavaScript fejlesztés
- - Képek méretzése és vágása
- - Ikonok szinezése
- - Adat elemzés CSV file-okbólö
+ - Képek méretezése és vágása
+ - Ikonok színezése
+ - Adat elemzés CSV file-okból
  - File olvasás és manipulálás szabadon választott programozói környezetben
  - Képek gyűjtése internetről
