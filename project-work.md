@@ -1,5 +1,16 @@
 # Projektmunka
 
+## Telepités
+
+A fejlesztéshez szükséges Git telepítése.
+A telepítő ezen a linken elérhető: <https://git-scm.com/downloads>
+Telepéskor fontos, hogy a Git Bash-t is telepítsük.
+A workshop alatt szükséges lesz, a következő oldalakra regisztráció:
+
+- <https://github.com/>
+- <https://trello.com/>
+
+
 ## Otthon megnézendő anyagok a gyakorlati nap előtt
 
 | Tananyag | Hossz |
@@ -28,3 +39,4 @@ A feladathoz szükséges készségek a csapatban (a csapat-munka eszközökön f
  - Adat elemzés CSV file-okból
  - File olvasás és manipulálás szabadon választott programozói környezetben
  - Képek gyűjtése internetről
+ - Dokumentáció készítése
