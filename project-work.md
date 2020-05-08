@@ -47,8 +47,61 @@ A web-oldal statisztikákat mutat be Egyesült Államok beli repülőgép társa
 és repterekről. A statisztikák a 2019-02 és 2020-02 közötti adatokra alapulnak
 amik megtalálhatóak [ebben a `csv` file-ban](assets/flights.csv).
 
+#### Főoldal
+
+- A 3 zöld kocka kattintható és másik aloldalakra vezet
+- A vers szövege kódolt fájlokból kiolvasható, részletek lejjebb
+- A készítők linkjei a saját elkészített önéletrajz oldalukra vezet
+- A fejléc a teljes oldal szélességét kitölti
+- Az oldal többi tartalma 800 pixel széles
+- A repülő ikonok 200 pixel szélesek
+
 ![main-page](assets/main-page.png)
-![main-page](assets/carrier-list-page.png)
+
+#### Légitársaságok Listája
+
+- A Főoldal link vissza vezet a főoldalra
+- A Légitársaságok listája link ezen az oldalon marad
+- A `flights.csv` file-ban található összes légitársaság legyen a listán
+- Az egyes légitársaság linkek tovább vezetnek a légitársaság oldalakra
+
+![carrier-list-page](assets/carrier-list-page.png)
+
+#### Légitársaság oldal
+
+- A Főoldal link vissza vezet a főoldalra
+- A Légitársaságok listája link vezet a Légitársaságok Listája oldalra
+- A Légitársaság link ezen at oldalon marad
+- A `flights.csv` file-ban található összes légitársaság legyen oldala
+- A légitársaság logóját az internetről szükséges kikeresni és az oldalon középre igazítva 300 pixeles méretben jelenjen meg
+- A szükséges adatok a `flights.css` fileból eredjenek, részletek lejjebb
+
+![carrier-list-page](assets/carrier-page.png)
+
+#### Repterek oldal
+
+- A Főoldal link vissza vezet a főoldalra
+- A Repterek link ezen az oldalon marad
+- Az oldalon a 3 legforgalmasabb reptér jelenik meg a `flights.csv` alapján, részletek lejjebb
+- A repterek koordinátáit ay internetről szükséges kikeresni
+- A kupa ikonok 30 pixelesek
+
+![airport-list-page](assets/airport-page.png)
+
+#### Késések oldal
+
+- A Főoldal link vissza vezet a főoldalra
+- A Késések link ezen az oldalon marad
+- Az oldalon a 3 legkisebb átlagos késés idővel rendelkező társaság jelenik meg a `flights.csv` alapján, részletek lejjebb
+- A kupa ikonok 30 pixelesek
+
+![airport-list-page](assets/airport-page.png)
+
+#### Önéletrajz oldalak
+
+#### Adatok elemzése
+
+#### Vers
 
 Az oldalakhoz szükséges fontok, ikonok és szinek:
 
