@@ -49,7 +49,7 @@ amik megtalálhatóak [ebben a `csv` file-ban](assets/flights.csv).
 
 #### Főoldal
 
-- A 3 zöld kocka kattintható és másik aloldalakra vezet
+- A 3 zöld doboz kattintható és másik aloldalakra vezet
 - A vers szövege kódolt fájlokból kiolvasható, részletek lejjebb
 - A készítők linkjei a saját elkészített önéletrajz oldalukra vezet
 - A fejléc a teljes oldal szélességét kitölti
@@ -95,15 +95,62 @@ amik megtalálhatóak [ebben a `csv` file-ban](assets/flights.csv).
 - Az oldalon a 3 legkisebb átlagos késés idővel rendelkező társaság jelenik meg a `flights.csv` alapján, részletek lejjebb
 - A kupa ikonok 30 pixelesek
 
-![airport-list-page](assets/airport-page.png)
+![delay-list-page](assets/delay-page.png)
 
 #### Önéletrajz oldalak
 
+- Minden készítő adja hozza a saját önéletrajzát mint aloldal
+- Mindenki a saját tudása szerint egy egyszerű `.txt` file is elegendő
+- Ha valaki unatkozna nyugodtan élje ki a kreativitását :)
+
 #### Adatok elemzése
+
+- A `flights.csv` file Excel segítségével megnyitható mint táblázat
+- A számolásokhoz szükséges adatok oszlopai:
+  - `carrier`: A légitársaság kódja
+  - `carrier_name`: A légitársaság neve
+  - `airport`: A reptér kódja
+  - `airport_name`: A reptér neve
+  - `arr_flights`: Az érkező járatok száma
+  - `arr_del15`: A késett járatok száma
+  - `arr_delay`: A késések összesítve percben
 
 #### Vers
 
-Az oldalakhoz szükséges fontok, ikonok és szinek:
+A vers szövege több [`caesar.txt`](vers/caesar.txt) file-ban van lekódolva a [Caesar-rejtjel](https://hu.wikipedia.org/wiki/Caesar-rejtjel)
+segítségével. A kódolás az angol ABC-t használja és eltolást értékét másik feladatok alapján kapjuk meg.
+A többi feladat eredménye mind szám, feladatok eredményeinek összege a kódolás eltolásának értéke.
+A feltörési feladatok megoldásához bármilyen programozási nyelvet használhatnak a résztvevők.
+
+Az eltolás összegét megadó feladatok:
+
+##### [count-x-y-w.txt](vers/count-x-y-w.txt)
+
+Számoljuk össze (egy megírt program segítségével) hányszor szerepel a szövegben az `X`, `Y` és `W` karakter.
+Az eredmény: `X_száma + Y_száma - W_száma`
+
+##### [after-z.txt](vers/after-z.txt)
+
+Keressük ki a file-ban a `Z` karakter után következő számjegy karatereket és az átlaguknak vegyük az egész részét.
+
+##### Fibonacci 50
+
+Az ötvenedik fibonacci szám legmagasabb helyiértékű számjegye kivonva a legkisebb helyiértéküből.
+Ha a nulladik: 0, az első: 1.
+
+
+#### Dokumentáció
+
+A projekthez készüljön dokumentáció markdown formátumban
+
+#### GitHub Hosting
+
+A weboldal kódja és hozzá tartozó fileok mind kerüljenek fel a csapatnak egy közös
+github repository-jára, az egyik résztvevő profilja alá.
+Az oldal kerüljön ki az internetre ami a repository nevének megválasztásával oldható meg,
+a kovetkező cikk alapján: <https://pages.github.com/>
+
+#### Az oldalakhoz szükséges fontok, ikonok és szinek:
 
 - Font: arial
 - Fekete: `#333333`
