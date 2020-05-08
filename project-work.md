@@ -40,3 +40,28 @@ A feladathoz szükséges készségek a csapatban (a csapat-munka eszközökön f
  - File olvasás és manipulálás szabadon választott programozói környezetben
  - Képek gyűjtése internetről
  - Dokumentáció készítése
+
+### A web-oldal
+
+A web-oldal statisztikákat mutat be Egyesült Államok beli repülőgép társaságokról
+és repterekről. A statisztikák a 2019-02 és 2020-02 közötti adatokra alapulnak
+amik megtalálhatóak [ebben a `csv` file-ban](assets/flights.csv).
+
+![main-page](assets/main-page.png)
+![main-page](assets/carrier-list-page.png)
+
+Az oldalakhoz szükséges fontok, ikonok és szinek:
+
+- Font: arial
+- Fekete: `#333333`
+- Szürke: `#cccccc`
+- Világos zöld: `#3cb878`
+- Sötét zöld: `#007335`
+- Kék: `#063711`
+- Sérga: `#ffab40`
+- Arany: `#fed346`
+- Ezüst: `#8d8d8d`
+- Bronz: `#ce7402`
+- [Repülő ikon](assets/airplane-icon.png)
+- [Kupa ikon](assets/cup.jpg)
+
