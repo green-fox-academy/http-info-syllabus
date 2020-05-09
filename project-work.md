@@ -25,6 +25,38 @@ A workshop alatt szükséges lesz, a következő oldalakra regisztráció:
 | [Git Alapismeretek 08. Branchek](https://www.youtube.com/watch?v=JXnep31gM4I) | 7:33 |
 | [A Trello használata hatékonyan home office-ban 2020-as oktatóvideó kezdőknek](https://www.youtube.com/watch?v=jSMzo6bZGgU) | 25:06 |
 
+## Tananyag Ellenőrzés
+
+- Mire jó a Git?
+- Mire jó a GitHub?
+- Mi az, hogy Repository?
+- Hogyan hozunk létre repository-t?
+- Mi az a stage?
+- Hogy adunk hozzá file-okat?
+- Mi az, hogy commit?
+- Mire jó a `git status`?
+- Mire jő a `git log`?
+- Mi at a remote repository?
+- Hogyan állítjuk be a remote repositoryt-?
+- Hogyan publikáljuk a változtatásainkat a remote repository-ra?
+- Hogyan frissítjük a local reopsitory-t a remote-hoz képest?
+- Mire jó a `git clone`?
+- Mi az, hogy markdown, és mire használjuk?
+- Mire jó a `git diff`?
+- Mire jó a `git reset`?
+- Mi az, hogy conflict, és hogyan oldjuk fel?
+- Mire jó a `git checkout`?
+- Hogyan host-olunk web-oldalakat GitHub pages-el?
+- Mik azok a branch-ek, és mire használjuk őket?
+- Mi a Trello célja?
+- Hogyan hozunk létre kártyát és oszlopot?
+- Hogyan mozgatunk kártyákat?
+- Mik a kártyák jellemzói és feature-ei?
+- Mi az, hogy kanban?
+- Hogy an érdemes együttműködni Trello-ban?
+- Mire jó a GitHub projects, és miben hasonlít a Trello-ra?
+
+
 ## Projekt a workshop alatt
 
 A projekt alatt 4-6 fős csapatokban egy repüléssel kapcsolatos statisztikai
@@ -43,7 +75,7 @@ A feladathoz szükséges készségek a csapatban (a csapat-munka eszközökön f
 
 ### A web-oldal
 
-A web-oldal statisztikákat mutat be Egyesült Államok beli repülőgép társaságokról
+A web-oldal statisztikákat mutat be egyesült államokbeli repülőgép társaságokról
 és repterekről. A statisztikák a 2019-02 és 2020-02 közötti adatokra alapulnak
 amik megtalálhatóak [ebben a `csv` file-ban](flights.csv).
 
@@ -64,6 +96,8 @@ amik megtalálhatóak [ebben a `csv` file-ban](flights.csv).
 - A Légitársaságok listája link ezen az oldalon marad
 - A `flights.csv` file-ban található összes légitársaság legyen a listán
 - Az egyes légitársaság linkek tovább vezetnek a légitársaság oldalakra
+- A fejléc a teljes oldal szélességét kitölti
+- Az oldal többi tartalma 800 pixel széles
 
 ![carrier-list-page](assets/carrier-list-page.png)
 
@@ -75,6 +109,8 @@ amik megtalálhatóak [ebben a `csv` file-ban](flights.csv).
 - A `flights.csv` file-ban található összes légitársaság legyen oldala
 - A légitársaság logóját az internetről szükséges kikeresni és az oldalon középre igazítva 300 pixeles méretben jelenjen meg
 - A szükséges adatok a `flights.css` fileból eredjenek, részletek lejjebb
+- A fejléc a teljes oldal szélességét kitölti
+- Az oldal többi tartalma 800 pixel széles
 
 ![carrier-list-page](assets/carrier-page.png)
 
@@ -85,6 +121,8 @@ amik megtalálhatóak [ebben a `csv` file-ban](flights.csv).
 - Az oldalon a 3 legforgalmasabb reptér jelenik meg a `flights.csv` alapján, részletek lejjebb
 - A repterek koordinátáit ay internetről szükséges kikeresni
 - A kupa ikonok 30 pixelesek
+- A fejléc a teljes oldal szélességét kitölti
+- Az oldal többi tartalma 800 pixel széles
 
 ![airport-list-page](assets/airport-page.png)
 
@@ -94,6 +132,8 @@ amik megtalálhatóak [ebben a `csv` file-ban](flights.csv).
 - A Késések link ezen az oldalon marad
 - Az oldalon a 3 legkisebb átlagos késés idővel rendelkező társaság jelenik meg a `flights.csv` alapján, részletek lejjebb
 - A kupa ikonok 30 pixelesek
+- A fejléc a teljes oldal szélességét kitölti
+- Az oldal többi tartalma 800 pixel széles
 
 ![delay-list-page](assets/delay-page.png)
 
