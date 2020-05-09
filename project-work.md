@@ -45,7 +45,7 @@ A feladathoz szükséges készségek a csapatban (a csapat-munka eszközökön f
 
 A web-oldal statisztikákat mutat be Egyesült Államok beli repülőgép társaságokról
 és repterekről. A statisztikák a 2019-02 és 2020-02 közötti adatokra alapulnak
-amik megtalálhatóak [ebben a `csv` file-ban](assets/flights.csv).
+amik megtalálhatóak [ebben a `csv` file-ban](flights.csv).
 
 #### Főoldal
 
