@@ -119,7 +119,7 @@ amik megtalálhatóak [ebben a `csv` file-ban](flights.csv).
 - A Főoldal link vissza vezet a főoldalra
 - A Repterek link ezen az oldalon marad
 - Az oldalon a 3 legforgalmasabb reptér jelenik meg a `flights.csv` alapján, részletek lejjebb
-- A repterek koordinátáit ay internetről szükséges kikeresni
+- A repterek koordinátáit az internetről szükséges kikeresni
 - A kupa ikonok 30 pixelesek
 - A fejléc a teljes oldal szélességét kitölti
 - Az oldal többi tartalma 800 pixel széles
@@ -185,14 +185,14 @@ A projekthez készüljön dokumentáció markdown formátumban
 
 #### GitHub Hosting
 
-A weboldal kódja és hozzá tartozó fileok mind kerüljenek fel a csapatnak egy közös
+A weboldal kódja és hozzá tartozó file-ok mind kerüljenek fel a csapatnak egy közös
 github repository-jára, az egyik résztvevő profilja alá.
 Az oldal kerüljön ki az internetre ami a repository nevének megválasztásával oldható meg,
 a kovetkező cikk alapján: <https://pages.github.com/>
 
 #### Az oldalakhoz szükséges fontok, ikonok és szinek:
 
-- Font: arial
+- Font: `arial`
 - Fekete: `#333333`
 - Szürke: `#cccccc`
 - Világos zöld: `#3cb878`
@@ -205,3 +205,7 @@ a kovetkező cikk alapján: <https://pages.github.com/>
 - [Repülő ikon](assets/airplane-icon.png)
 - [Kupa ikon](assets/cup.jpg)
 
+## Tovább haladás
+
+- Ha a csapat készvan a projektel, akkor itt találhat egy kovetkező projektet:
+  [lottó projekt](project-work-2.md)
