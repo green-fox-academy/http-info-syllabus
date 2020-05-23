@@ -56,6 +56,36 @@ A workshop alatt szükséges lesz, a következő oldalakra regisztráció:
 - Hogy an érdemes együttműködni Trello-ban?
 - Mire jó a GitHub projects, és miben hasonlít a Trello-ra?
 
+## Scrum
+
+- Alap értékek
+
+  - Transzparencia
+  - Ellenőrzés
+  - Adaptáció
+
+- A csapat
+
+  - Product Owner
+  - Scrum Master
+  - A fejlesztő cspat
+
+- Események
+
+  - Sprint
+  - Sprint Planning
+  - Daily Scrum vagy Stand up
+  - Sprint Review vagy Demo
+  - Retrospective
+
+- Összetevők
+
+  - Product Backlog
+  - Sprint Backlog
+    - Burn-down chart
+  - Definition of Done
+
+
 
 ## Projekt a workshop alatt
 
