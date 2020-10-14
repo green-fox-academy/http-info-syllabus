@@ -225,8 +225,8 @@ Tagváltozók:
 
 Metódusok:
 
-- `refill(car)`: Csökkenti a `gas_amount` tagváltozót az átadott autó által befogadható 
-üzemanyag mennyiségének értékével, és megnöveli az autó `gas_amount` tagváltozóját
+- `refill(car)`: Csökkenti a `gas_amount` tagváltozót az átadott autó által befogadható üzemanyag 
+  mennyiségének értékével, és megnöveli az autó `gas_amount` tagváltozóját a maximális értékre (teletölti)
 
 ##### `Car`
 
