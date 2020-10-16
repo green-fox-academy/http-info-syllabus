@@ -81,27 +81,28 @@ elkészíteni.
 #### Feladat 1
 
 Készíts egy PostIt osztályt, amelynek van 3 tagváltozója:
-- `hatterSzin`
-- `szoveg` ami rajta van
-- `szovegSzin`
+- `hatterszin`
+- `szoveg` (ami rajta van)
+- `szovegszin`
 Készíts pár példa objektumot:
-- sárga posztit kék szöveggel: "Első ötlet"
-- rózsaszínű posztit fekete szöveggel: "Hurrá!"
-- zöld posztit barna szöveggel: "Szuper!"
+- sárga postit kék szöveggel: "Első ötlet"
+- rózsaszínű postit fekete szöveggel: "Hurrá!"
+- zöld postit barna szöveggel: "Szuper!"
 
 #### Feladat 2
+
 - Készíts egy `Allat` osztályt
 - Minden állatnak van éhsége, ami egy szám
 - Minden állatnak van szomja, ami egy szám
-- Amikor egy állat létrejön 50-es az éhsége és 50-es a szomja
-- Minden állat tud csinálni dolgokat:
-  - eszik() az éhsége csökken eggyel
-  - iszik() a szomja csökken eggyel
-  - jatszik() az éhsége és szomja növekszik eggyel
+- Amikor egy állat létrejön, 50-es az éhsége és 50-es a szomja
+- Minden állat tud csinálni bizonyos dolgokat:
+  - eszik(), ilyenkor az éhsége csökken eggyel
+  - iszik(), ilyenkor a szomja csökken eggyel
+  - jatszik(), ilyenkor az éhsége és szomja megnő eggyel
 
 #### Feladat 3
 
-Másold magadhoz az elkészített Pokemon osztályt:
+Másold magadhoz az elkészített `Pokemon` osztályt:
 
 ```python
 class Pokemon:
@@ -198,12 +199,12 @@ A class és a program kódja két különböző file-ban legyen.
 
 Hozz létre diák és tanár osztályokat: Student és Teacher néven
 
-##### `Student`
+##### `Student` (diák)
 
 - `learn()`: Kiírja a képernyőre: "A diák tanul valamit"
-- `question(teacher)`: calls the teachers answer method
+- `question(teacher)`: Meghívja a tanár (teach) metódusát
 
-##### `Teacher`
+##### `Teacher` (tanár)
 
 - `teach(student)`: Meghívja a diák `learn()` metódusát
 - `answer()`: Kiírja a képernyőre: "A tanár válaszol a diáknak"
@@ -225,20 +226,20 @@ Tagváltozók:
 
 Metódusok:
 
-- `refill(car)`: Csökkenti a `gas_amount` tagváltozót az átadott autó által befogadható üzemanyag 
-  mennyiségének értékével, és megnöveli az autó `gas_amount` tagváltozóját a maximális értékre (teletölti)
+- `refill(car)`: Csökkenti a `gas_amount` tagváltozót az átadott autó által
+  befogadható üzemanyag mennyiségének értékével, és megnöveli az autó
+  `gas_amount` tagváltozóját a maximális értékre (teletölti)
 
 ##### `Car`
 
 Tagváltozók:
 
 - `gas_amount`: Az autó aktuális üzemanyag szintje
-
 - `capacity`: Az autó maximális üzemanyag szintje
 
 Metódusok:
 
-Hozz létre egy konstruktort ami beállítja a következő értékeket:
+Hozz létre egy konstruktort, ami beállítja a következő értékeket:
 
 - `gas_amount`: 0
 - `capacity`: 100
@@ -255,12 +256,14 @@ A létrehozott példány tinta mennyisége legyen 100.
 
 Legyen egy `use()` metódusa ami csökkenti a tinta mennyiségét.
 
-##### `SharpieSet`
+##### `SharpieSet` (tolltartó)
 
-Az osztály filceket tárol. Rendelkezzen a következő.
+Az osztály filceket tárol.
+Egy tolltartó rendelkezzen a következő metódusokkal:
 
 - `add(sharpie)`: Hozzáad egy filcet
-- `count_usable()`: Visszaadja a számát azoknak a filceknek amikben még van tinta
+- `count_usable()`: Visszaadja a számát azoknak a filceknek, amikben még van
+  tinta
 - `remove_trash()`: Törli az üres filceket
 
 #### Feladat 8
@@ -271,13 +274,13 @@ Használd újra az `Allat` osztályt.
 
 Hozz létre egy `Farm` osztályt.
 
- - tároljon állatokat
- - tárolja hogy maximum hány állatot tud tárolni
+- tároljon állatokat
+- tárolja, hogy maximum hány állatot tud tárolni
 
 Metódusok:
 
-- `breed()`: létrehoz egy új állatot ha van neki hely
-- `slaughter()`: kiveszi a legkevésbé éhes állatot
+- `breed()`: létrehoz egy új állatot, ha van neki hely
+- `sell()`: kiveszi a legkevésbé éhes állatot
 
 #### Feladat 9
 
@@ -292,10 +295,9 @@ Hozz létre `BlogPost` osztályt aminek van:
 
 ##### `Blog`
 
-Hozz létre `Blog` ami képes:
+Hozz létre `Blog`-ot, ami képes:
 
 - `BlogPost`-okat tárolni
-- Hozzáadni egyet a listához
-- Törölni egyet index alapján
-- Megváltoztatni egyet, egy másik pédányra index alapján
-
+- Hozzáadni egy új blogpostot a blogpostok listájhoz
+- Törölni egy postot (index alapján)
+- Megváltoztatni egyet egy másik pédányra, index alapján
